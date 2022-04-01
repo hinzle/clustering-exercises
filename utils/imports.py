@@ -1,4 +1,6 @@
 # local_host
+import sys
+sys.path.insert(0, '/Users/hinzlehome/codeup-data-science/clustering-exercises/.env')
 from env import get_db_url
 import os
 
